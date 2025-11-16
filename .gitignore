@@ -1,0 +1,22 @@
+# Node / dev
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+.vscode/
+*.log
+
+# Builds
+dist/
+build/
+
+# OS
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+
+# Misc
+infgame copy.html
