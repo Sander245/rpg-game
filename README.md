@@ -5,7 +5,7 @@ A lightweight browser-based 2D platformer / metroidvania starter built with vani
 ## Run It
 
 1. Open `infgame.html` in any modern desktop browser (Chrome, Edge, Firefox). No build step is required.
-2. Play with the bundled "Echo Vault" demo scene or wire in your own level data via the exposed preset API.
+2. Play with the bundled demo scene or wire in your own level data via the exposed preset API.
 
 ## Controls
 
@@ -47,13 +47,13 @@ Battle music automatically ramps in when enemies or the player land hits, and fa
 
 ```js
 {
-  name: "Echo Vault",
+  name: "adventure place thingy",
   playerStart: { x: 120, y: 360 },
   backgroundLayers: [ { type: "gradient", colors: ["#050813", "#0a0f1f"], parallax: 0 }, ... ],
   platforms: [ { x: 0, y: 500, width: 1400, height: 60 }, ... ],
   npcs: [ { name: "Archivist Lyra", x: 170, y: 454, dialogue: ["line"], flavor: "blurb" } ],
-  enemies: [ { name: "Gleam Spore", x: 420, y: 330, patrol: [360, 520], hp: 40 } ],
-  pickups: [ { name: "Dash Prism", description: "Lengthens dash", x: 820, y: 248, upgrade: "longerDash" } ],
+  enemies: [ { name: "evil guy", x: 420, y: 330, patrol: [360, 520], hp: 40 } ],
+  pickups: [ { name: "yes Prism", description: "yes dash", x: 820, y: 248, upgrade: "yesDash" } ],
   cutscenes: [ { id: "intro", trigger: { x: 80, y: 400, width: 80, height: 120 }, steps: [...] } ]
 }
 ```
